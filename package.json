@@ -1,0 +1,26 @@
+{
+  "name": "rxjs-intro",
+  "version": "1.0.0",
+  "description": "Introduction to rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amassarwi/rxjs-intro.git"
+  },
+  "keywords": [
+    "rxjs",
+    "reactive-programming"
+  ],
+  "author": "Amir Massarwi <amassarwi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amassarwi/rxjs-intro/issues"
+  },
+  "homepage": "https://github.com/amassarwi/rxjs-intro#readme",
+  "dependencies": {
+    "rx": "^4.1.0"
+  }
+}
