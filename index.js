@@ -13,3 +13,12 @@ const result = source
     .reduce((x,y) => x + y);
 
 result.subscribe(x => console.log(x));
+
+// Example2: It allows you to specify the dynamic behavior of a value completely at the time
+// of declaration.
+
+let streamA = Observable.of(3, 4);
+let streamB = streamA.map(a => 10 * a);
+
+streamB.subscribe(b => console.log(b));
+
